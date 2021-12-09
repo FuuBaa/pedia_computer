@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.atas{
+    padding: 20px 0;
+    background-color:#F4B246;
+}
+.medsos ul {
+    display: inline-block;
+    color: #fff;
+}
+.nama_tempat{
+    width: 98%;
+    margin: 0 auto;
+
+}
+.bintang{
+    width: 95%;
+    height: 64%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bintang h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    color: rgb(141, 134, 134);
+}
+.checked{
+    color: orange;
+}
+
+.content{
+    background-color: #dddada;
+    width: 280px;
+    height: 210px;
+    padding-top: 20px;
+    margin: 50px 30px;
+}
+.bagian img{
+    width: 110px;
+    margin: 50px 79px ;
+}
+
+.wrap{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 100vh;
+}
+
+.item{
+    padding:65px 17px ;
+}
+.btn1{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background:rgb(104, 104, 104);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.btn1:hover,
+.btn1:focus{
+    background: rgb(54, 54, 54);
+}
+.btn1:active{
+    background: rgb(0, 0, 0);
+}
+
+.btn2{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background:rgb(104, 104, 104);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.btn2:hover,
+.btn2:focus{
+    background: rgb(54, 54, 54);
+}
+.btn2:active{
+    background: rgb(0, 0, 0);
+}
+.judul h3{
+    font-family:'Poppins', sans-serif ;
+    text-align: center;
+    padding: 5px ;
+    
+}
+.judul h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    background-color: #888888;
+    border-radius: 45px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.30);
+    margin: 50px 20px;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    background-color: #ffffff;
+    color: #202030;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+button{
+    color: #3264fe;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#decrement{
+    padding: 15px 5px 15px 25px;
+    border-radius: 45px 0 0 45px;
+    
+}
+#increment{
+    padding: 15px 25px 15px 5px;
+    border-radius: 0 45px 45px 0;
+}
+
+.btn3{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 9px 40px;
+    border-radius: 30px;
+    background:rgb(104, 104, 104);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin: 5px 255px;
+}
+.btn3:hover,
+.btn3:focus{
+    background: rgb(54, 54, 54);
+}
+.btn3:active{
+    background: rgb(0, 0, 0);
+}
+    
+    
+
+
+
+
